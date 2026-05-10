@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 @import "tailwindcss";
 
+@theme {
+  --font-roboto: 'Roboto';
+}
+
+
 body {
-    background-color: rgb(200, 214, 234);
+    background-color: rgb(222, 235, 253);
 }
