@@ -1,1 +1,9 @@
-<h1 class="text-red-400">Hello, World!</h1>
+<script lang="ts">
+
+import Header from "./lib/Header.svelte";
+
+</script>
+
+<div id="main">
+    <Header />
+</div>
