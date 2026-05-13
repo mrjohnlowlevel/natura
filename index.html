@@ -6,115 +6,11 @@
   <link rel="icon" type="image/svg+xml" href="/natura/icon.jpeg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>natura</title>
-
-  <style>
-    /* Layout tengah kalau nak tukar ikut la */
-    body {
-      background-color: #f0f2f5;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0;
-      padding: 40px;
-    }
-
-    h1 {
-      color: #1a1a1b;
-      margin-bottom: 30px;
-    }
-
-    /* grid 2x2 kalu nak besar kecik ikut hang hafiz */
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(2, 300px);
-      /* 2 columns, 300px wide each */
-      gap: 25px;
-      /* Space between boxes */
-    }
-
-    /* Card any colour */
-    .card {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-      min-height: 180px;
-    }
-
-    .card h3 {
-      margin-top: 0;
-      text-align: center;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 10px;
-      color: #333;
-    }
-
-    /* style unordered list */
-    .card ul {
-      margin: 15px 0 0 0;
-      padding-left: 20px;
-      color: #555;
-      line-height: 1.6;
-    }
-  </style>
 </head>
 
 <body>
-
-  <h1>Natural Disasters</h1>
-
-  <div class="grid-container">
-
-    <div class="card">
-      <h3>Earthquake</h3>
-      <h4>
-        <p><mark style="background-color:lightgreen">Earthquake</mark> is the sudden shaking of the Earth surface cause
-          by
-          the rapid release of energy in the Earth outer
-          layer,called lithospere.This energy creates <mark style="background-color:lightgreen">seismic waves</mark>
-          that travel through the ground</p>
-      </h4>
-      <ul>
-        <li>Sudden ground shaking</li>
-        <li>Tectonic plate shifts</li>
-        <li>Measured by seismographs</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>Hurricane</h3>
-      <ul>
-        <li>Powerful rotating winds</li>
-        <li>Forms over warm oceans</li>
-        <li>Heavy rain and flooding</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>Landslide</h3>
-      <ul>
-        <li>Rapid rock/debris flow</li>
-        <li>Triggered by heavy rain</li>
-        <li>Common on steep slopes</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>Tsunami</h3>
-      <ul>
-        <li>Large underwater waves</li>
-        <li>Caused by earthquakes</li>
-        <li>High coastal impact</li>
-      </ul>
-    </div>
-
-  </div>
-
-  <!-- Vite App Root -->
   <div id="app"></div>
   <script type="module" src="/src/main.ts"></script>
-
 </body>
 
 </html>
