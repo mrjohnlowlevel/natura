@@ -137,7 +137,7 @@
             Natural Disasters
         </h1>
         <div
-            class="text-center grid grid-cols-1 md:grid-cols-2 justify-items-center bg-[#edf2fb] p-12 gap-2.5 rounded-sm"
+            class="text-center grid grid-cols-1 justify-items-center bg-[#edf2fb] p-12 gap-2.5 rounded-sm"
         >
             {#each disasters as disaster}
                 <div
