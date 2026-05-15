@@ -32,7 +32,7 @@
             ],
         },
         {
-            title: "Hafiz tolol",
+            title: "Test",
             description:
                 "Powerful rotating winds Forms over warm oceans Heavy rain and flooding",
             bullets: [
