@@ -32,7 +32,7 @@
             ],
         },
         {
-            title: "Hurricane",
+            title: "Hafiz tolol",
             description:
                 "Powerful rotating winds Forms over warm oceans Heavy rain and flooding",
             bullets: [
