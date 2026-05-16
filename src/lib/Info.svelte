@@ -34,27 +34,24 @@
         {
             title: "Hurricane",
             description:
-                "Powerful rotating winds Forms over warm oceans Heavy rain and flooding",
+                "A Hurricane is a powerful tropical weather system characterized by a low-pressure center, organized thunderstorms, and intense sustained winds of at least 74 mph (119 kph).",
             bullets: [
                 {
-                    text: "Powerful rotating winds",
+                    text: "Warm Ocean Water",
                     subs: [
-                        "Reaches speeds over 74 mph",
-                        "Rotates around a calm eye",
+                        "Temperatures must be at least 80 farenheit(26.5 celsius) to a depth of about 150 feet to provide the necessary 'fuel' or energy.",
                     ],
                 },
                 {
-                    text: "Forms over warm oceans",
+                    text: "Moist Air",
                     subs: [
-                        "Fueled by warm water moisture",
-                        "Common in tropical regions",
+                        "High humidity in the atmosphere allows clouds to form and releases heat as water vapor condenses, which powers the storm's growth.",
                     ],
                 },
                 {
-                    text: "Heavy rain and flooding",
+                    text: "Converging Winds",
                     subs: [
-                        "Causes dangerous storm surges",
-                        "Inundates coastal areas",
+                        "Low-level winds must come together (converge) and push the moist air upward, while low wind shear (little change in wind speed or direction with height) keeps the storm's structure from being torn apart.",
                     ],
                 },
             ],
@@ -62,47 +59,50 @@
         {
             title: "Landslide",
             description:
-                "Rapid rock/debris flow Triggered by heavy rain Common on steep slopes",
+                "A landslide is the downward movement of a mass of rock, debris, or earth under the direct influence of gravity. It occurs when the 'driving force' pushing material down a slope becomes stronger than the 'resisting force' (the strength of the soil and rock) holding it in place.",
             bullets: [
                 {
-                    text: "Rapid rock/debris flow",
+                    text: "Saturation by Water",
                     subs: [
-                        "Downslope movement of earth material",
-                        "Can destroy everything in its path",
+                        "Heavy rainfall, rapid snowmelt, or flooding adds weight to the soil and acts as a lubricant, reducing the friction that holds the slope in place.",
                     ],
                 },
                 {
-                    text: "Triggered by external forces",
+                    text: "Seismic Activity",
                     subs: [
-                        "Heavy rainfall and storms",
-                        "Earthquake vibrations",
+                        "Earthquakes and volcanic eruptions create powerful vibrations that shake loose soil and rock, causing unstable slopes to collapse.",
                     ],
                 },
                 {
-                    text: "Common on steep slopes",
-                    subs: ["High risk in mountainous terrain"],
+                    text: "Human Activity",
+                    subs: [
+                        "Construction, mining, and deforestation (removing roots that anchor the soil) weaken the natural structure of the land and increase the likelihood of a slide.",
+                    ],
                 },
             ],
         },
         {
             title: "Tsunami",
             description:
-                "Large underwater waves Caused by earthquakes High coastal impact",
+                "A tsunami is a series of extremely long ocean waves caused by a large and sudden displacement of the ocean. The name comes from the Japanese words 'tsu' (harbor) and 'nami' (wave).Unlike regular waves caused by wind, tsunamis involve the movement of the entire water column from the seafloor to the surface. ",
             bullets: [
                 {
-                    text: "Large underwater waves",
+                    text: "Undersea Earthquakes",
                     subs: [
-                        "Travels at high speeds across oceans",
-                        "Grows in height as it nears shore",
+                        "This is the most common cause. When tectonic plates shift abruptly under the ocean floor, they vertically displace a massive amount of water.",
                     ],
                 },
                 {
-                    text: "Caused by major disturbances",
-                    subs: ["Underwater earthquakes", "Volcanic eruptions"],
+                    text: "Underwater Landslides",
+                    subs: [
+                        "Large masses of rock and sediment sliding down steep slopes on the seafloor (often triggered by an earthquake) push water out of the way, creating powerful waves.",
+                    ],
                 },
                 {
-                    text: "High coastal impact",
-                    subs: ["Washes away low-lying communities"],
+                    text: "Volcanic Eruptions",
+                    subs: [
+                        "Violent underwater explosions or the collapse of a volcanic island into the sea can displace enough water to trigger a tsunami.",
+                    ],
                 },
             ],
         },
