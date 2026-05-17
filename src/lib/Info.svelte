@@ -2,94 +2,84 @@
     const disasters = [
         {
             title: "Earthquake",
-            description: `Earthquake is the sudden shaking of the Earth surface caused by the rapid release of energy in the Earth outer layer, called lithospere. This energy creates seismic wave that travel through the ground.`,
+            description: `An <span style="font-weight: bold;">Earthquake</span> is the sudden shaking of the Earth surface caused by the rapid release of energy in the Earth outer layer, called lithosphere. This energy creates <span style="font-weight: bold;">seismic waves</span> that travel through the ground.`,
             bullets: [
                 {
                     text: "Tectonic Plate Shifts (Mantle Convection)",
                     subs: [
-                        "Radioactive decay in the Earth's core generates intense heat, warming the semi-fluid asthenosphere.",
-                        "This heated material rises in convection cells, spreading horizontally beneath the rigid lithosphere.",
-                        "Through basal drag, these currents act like a conveyor belt, moving the plates until they collide or grind past each other",
-                        "The accumulated elastic strain energy eventually exceeds the rock's strength, causing a sudden rupture and seismic release.",
+                        "<span style='font-weight: bold;'>Convection currents</span> move tectonic plates, building up intense <span style='font-weight: bold;'>strain energy</span> until the rock ruptures along <span style='font-weight: bold;'>fault lines</span>.",
                     ],
                 },
                 {
                     text: "Magmatic Seismicity (Volcanic Activity)",
                     subs: [
-                        "As magma intrusion occurs, molten rock forces its way into the crust, fracturing the surrounding country rock.",
-                        "The movement of highly pressurized volcanic gases creates harmonic tremors, which are long-duration, low-frequency vibrations.",
-                        "A caldera collapse can also trigger major earthquakes when a depleted magma chamber can no longer support the ground above it.",
+                        "<span style='font-weight: bold;'>Rising magma</span> forces its way into the crust, fracturing surrounding rock and creating vibrations known as <span style='font-weight: bold;'>harmonic tremors</span>.",
                     ],
                 },
                 {
                     text: "Induced Seismicity (Human Activity)",
                     subs: [
-                        "Industrial activities like fracking or wastewater injection reduce effective stress by lubricating deep fault lines.",
-                        "Reservoir-Induced Seismicity (RIS) occurs when the massive weight of a dam increases pore-pressure in the crust.",
-                        "Large-scale crustal unloading from deep mining causes the Earth to rebound, triggering shallow, localized tremors.",
+                        "Human operations like <span style='font-weight: bold;'>fracking</span>, <span style='font-weight: bold;'>deep mining</span>, or building <span style='font-weight: bold;'>dam reservoirs</span> alter ground pressure and trigger shallow tremors.",
                     ],
                 },
             ],
         },
         {
             title: "Hurricane",
-            description:
-                "A Hurricane is a powerful tropical weather system characterized by a low-pressure center, organized thunderstorms, and intense sustained winds of at least 74 mph (119 kph).",
+            description: `A <span style="font-weight: bold;">Hurricane</span> is a powerful tropical weather system characterized by a <span style="font-weight: bold;">low-pressure center</span>, organized thunderstorms, and intense sustained winds of at least 74 mph (119 kph).`,
             bullets: [
                 {
                     text: "Warm Ocean Water",
                     subs: [
-                        "Temperatures must be at least 80 farenheit(26.5 celsius) to a depth of about 150 feet to provide the necessary 'fuel' or energy.",
+                        "Temperatures must be at least <span style='font-weight: bold;'>80 Fahrenheit (26.5 Celsius)</span> to a depth of about 150 feet to provide the necessary <span style='font-weight: bold;'>fuel or energy</span>.",
                     ],
                 },
                 {
                     text: "Moist Air",
                     subs: [
-                        "High humidity in the atmosphere allows clouds to form and releases heat as water vapor condenses, which powers the storm's growth.",
+                        "<span style='font-weight: bold;'>High humidity</span> in the atmosphere allows clouds to form and releases heat as <span style='font-weight: bold;'>water vapor condenses</span>, which powers the storm's growth.",
                     ],
                 },
                 {
                     text: "Converging Winds",
                     subs: [
-                        "Low-level winds must come together (converge) and push the moist air upward, while low wind shear (little change in wind speed or direction with height) keeps the storm's structure from being torn apart.",
+                        "Low-level winds must come together (<span style='font-weight: bold;'>converge</span>) and push the moist air upward, while <span style='font-weight: bold;'>low wind shear</span> keeps the storm's structure from being torn apart.",
                     ],
                 },
             ],
         },
         {
             title: "Landslide",
-            description:
-                "A landslide is the downward movement of a mass of rock, debris, or earth under the direct influence of gravity. It occurs when the 'driving force' pushing material down a slope becomes stronger than the 'resisting force' (the strength of the soil and rock) holding it in place.",
+            description: `A <span style="font-weight: bold;">landslide</span> is the downward movement of a mass of rock, debris, or earth under the direct influence of <span style="font-weight: bold;">gravity</span>. It occurs when the driving force pushing material down a slope becomes stronger than the resisting force holding it in place.`,
             bullets: [
                 {
                     text: "Saturation by Water",
                     subs: [
-                        "Heavy rainfall, rapid snowmelt, or flooding adds weight to the soil and acts as a lubricant, reducing the friction that holds the slope in place.",
+                        "<span style='font-weight: bold;'>Heavy rainfall</span>, rapid snowmelt, or flooding adds weight to the soil and acts as a <span style='font-weight: bold;'>lubricant</span>, reducing the friction that holds the slope in place.",
                     ],
                 },
                 {
                     text: "Seismic Activity",
                     subs: [
-                        "Earthquakes and volcanic eruptions create powerful vibrations that shake loose soil and rock, causing unstable slopes to collapse.",
+                        "<span style='font-weight: bold;'>Earthquakes</span> and volcanic eruptions create powerful vibrations that shake loose soil and rock, causing <span style='font-weight: bold;'>unstable slopes to collapse</span>.",
                     ],
                 },
                 {
                     text: "Human Activity",
                     subs: [
-                        "Construction, mining, and deforestation (removing roots that anchor the soil) weaken the natural structure of the land and increase the likelihood of a slide.",
+                        "Construction, mining, and <span style='font-weight: bold;'>deforestation</span> (removing roots that anchor the soil) weaken the natural structure of the land and increase the likelihood of a slide.",
                     ],
                 },
             ],
         },
         {
             title: "Tsunami",
-            description:
-                "A tsunami is a series of extremely long ocean waves caused by a large and sudden displacement of the ocean. The name comes from the Japanese words 'tsu' (harbor) and 'nami' (wave).Unlike regular waves caused by wind, tsunamis involve the movement of the entire water column from the seafloor to the surface. ",
+            description: `A <span style="font-weight: bold;">tsunami</span> is a series of extremely long ocean waves caused by a large and sudden <span style="font-weight: bold;">displacement of the ocean</span>. Unlike regular waves caused by wind, tsunamis involve the movement of the entire water column from the seafloor to the surface.`,
             bullets: [
                 {
                     text: "Undersea Earthquakes",
                     subs: [
-                        "This is the most common cause. When tectonic plates shift abruptly under the ocean floor, they vertically displace a massive amount of water.",
+                        "This is the most common cause. When tectonic plates shift abruptly under the ocean floor, they vertically displace a massive amount of <span style='font-weight: bold;'>water column</span>.",
                     ],
                 },
                 {
@@ -101,7 +91,7 @@
                 {
                     text: "Volcanic Eruptions",
                     subs: [
-                        "Violent underwater explosions or the collapse of a volcanic island into the sea can displace enough water to trigger a tsunami.",
+                        "Violent <span style='font-weight: bold;'>underwater explosions</span> or the collapse of a volcanic island into the sea can displace enough water to trigger a tsunami.",
                     ],
                 },
             ],
@@ -143,7 +133,7 @@
                 <div
                     class="bg-white size-fit grid grid-cols-1 items-center justify-center shadow-sm rounded-2xl p-6"
                 >
-                    <h1 class="mb-5 bold text-2xl">{disaster.title}</h1>
+                    <h1 class="mb-5 font-bold text-2xl">{disaster.title}</h1>
 
                     <p class="mb-5 px-6 text-center">
                         {@html disaster.description}
@@ -162,7 +152,7 @@
                                     class="list-circle pl-6 mt-1 space-y-1 text-gray-600 font-normal text-sm"
                                 >
                                     {#each bullet.subs as subPoint}
-                                        <li>{subPoint}</li>
+                                        <li>{@html subPoint}</li>
                                     {/each}
                                 </ul>
                             {/if}
