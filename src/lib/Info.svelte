@@ -136,7 +136,7 @@
                     <h1 class="mb-5 font-bold text-2xl">{disaster.title}</h1>
 
                     <p class="mb-5 px-6 text-center">
-                        {disaster.description}
+                        {@html disaster.description}
                     </p>
 
                     <!-- Clean, aligned bullet point layout structure -->
@@ -152,7 +152,7 @@
                                     class="list-circle pl-6 mt-1 space-y-1 text-gray-600 font-normal text-sm"
                                 >
                                     {#each bullet.subs as subPoint}
-                                        <li>{subPoint}</li>
+                                        <li>{@html subPoint}</li>
                                     {/each}
                                 </ul>
                             {/if}
