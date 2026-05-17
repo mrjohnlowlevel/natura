@@ -120,7 +120,7 @@
                 Natura.
             </p>
         </div>
-        <div class="md:justify-self-end md:mt-0 mt-6 text-center pr-12">
+        <div class="md:justify-self-end md:mt-0 justify-self-center mt-6 text-center pr-12">
             <img
                 src="/natura/icon.jpeg"
                 alt="Natura"
