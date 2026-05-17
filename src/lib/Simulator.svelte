@@ -185,7 +185,10 @@
     });
 </script>
 
-<div id="sim" class="max-w-4xl mx-auto my-8 p-6 bg-white rounded-sm shadow-md font-sans">
+<div
+    id="sim"
+    class="max-w-4xl mx-auto my-8 p-6 bg-white rounded-sm shadow-md font-sans"
+>
     <!-- Canvas Viewport Layout -->
     <div
         class="relative border-4 border-slate-700 rounded-lg overflow-hidden bg-slate-100 flex justify-center"
@@ -247,8 +250,12 @@
 
         <!-- Quick Tip Text Helper -->
         <p class="mt-4 text-xs text-slate-500 italic">
-            💡: You can also click directly on the skyscraper glass
-            windows anytime to smash them manually with seismic force!
+            💡: You can also click directly on the skyscraper glass windows
+            anytime to smash them manually with seismic force!
+        </p>
+        <p class="mt-4 text-xs text-slate-500 italic">
+            Note: The simulator is still new, other natural disasters are not
+            included yet
         </p>
     </div>
 </div>
