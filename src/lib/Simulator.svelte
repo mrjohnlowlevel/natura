@@ -185,7 +185,7 @@
     });
 </script>
 
-<div class="max-w-4xl mx-auto my-8 p-6 bg-white rounded-sm shadow-md font-sans">
+<div id="sim" class="max-w-4xl mx-auto my-8 p-6 bg-white rounded-sm shadow-md font-sans">
     <!-- Canvas Viewport Layout -->
     <div
         class="relative border-4 border-slate-700 rounded-lg overflow-hidden bg-slate-100 flex justify-center"
